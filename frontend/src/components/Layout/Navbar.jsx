@@ -11,9 +11,9 @@ const Navbar = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link to="/">Dashboard</Link></li>
+                    <li><Link to="/kategori">Kategori</Link></li>
                     <li><Link to="/produk">Produk</Link></li>
                     <li><Link to="/transaksi">Transaksi</Link></li>
-                    <li><Link to="/laporan">Laporan</Link></li>
                 </ul>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
